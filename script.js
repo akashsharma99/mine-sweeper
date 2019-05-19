@@ -26,8 +26,8 @@ const generateBoard=()=>{
     div.innerHTML=html;
     switch(size){
         case 8:bombCount=10;break;
-        case 16:bombCount=20;break;
-        case 24:bombCount=30;break;
+        case 16:bombCount=27;break;
+        case 24:bombCount=40;break;
     }
     for(let i=0;i<bombCount;i++)
     {
