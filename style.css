@@ -1,0 +1,37 @@
+.new-game{
+    width:100px;
+    height:18px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 0;
+    background-color: whitesmoke;
+    font-size:13px;
+    outline:0;
+    margin:1px;
+}
+.timer-div{
+    width:50px;
+    height:24px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: whitesmoke;
+    margin:10px;
+    position: relative;
+}
+#timer{
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   
+}
+.new-game:active{
+    font-size:10px;
+}
+@media only screen and (max-width: 300px) {
+    .nav-bar{
+      height: 100px;
+    }
+  }
