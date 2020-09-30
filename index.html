@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>MineSweeper</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body  style="background-color: #7084ff;margin:0">
     <div class="nav-bar" style="background-color: black;color: whitesmoke;margin: 0;padding: 5px;height: 30px;">
+      <div class="container">
         Select difficulty:
         <select class="difficultySelector">
             <option value="8">Easy 8 x 8</option>
@@ -17,15 +19,15 @@
         </select>
         <button class="new-game" onclick="generateBoard()">New Game</button>
         <span id="mines"></span>
-        
+      </div>
     </div>
-    <div>
+    <div class="container">
         <div class="timer-div">
                 <p id="timer"></p>
             </div>
     </div>
    
-    <div class="board">
+    <div class="board container">
     </div>
     <script src="script.js"></script>
 </body>
